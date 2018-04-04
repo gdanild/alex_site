@@ -1,0 +1,40 @@
+    body, html {
+        height: 100%;
+        margin: 0;
+    }
+
+
+    .bg {
+        /* The image used */
+        background-image: url("/static/images/kosmos.jpg");
+
+        /* Full height */
+        height: 100%;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+    }
+
+
+    #red{
+        position:absolute;
+        top:450px;
+        right:150px;
+    }
+
+    #white{
+        position:absolute;
+        top:450px;
+        left:150px;
+    }
+    #red_back{
+        background: #FF0000;
+        height: 100%;
+    }
+
+    #alex_loh{
+    position:absolute;
+    top:300px;
+    }
